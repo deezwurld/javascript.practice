@@ -1,0 +1,3 @@
+<script>
+document.getElementById('message').innerText = 'Hello World!'
+</script>
