@@ -1,3 +1,13 @@
 let myNumber //declare a variable
 myNumber= 10  // initialize a variable
 let myString = 'Hello World!'// Declare and initialize variable 
+
+
+const firstName = 'Mike'
+const valueOfPi = 3.142
+let isValid = true
+let jsObject = console
+let jsMethod = console.log
+let jsSymbol = Symbol()
+let emptyVariable = null
+let unusedVariable 
