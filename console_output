@@ -1,3 +1,10 @@
 window.alert('I'm a web development enthusiasts')
 
 console.log('Hello World')
+
+<p id="message"></p>
+<script>
+document.getElememtById('message').innerText = 'Hello World!'
+window.alert('Hello World')
+console log('Hello World')
+</script>
