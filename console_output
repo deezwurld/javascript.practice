@@ -1,0 +1,3 @@
+window.alert('I'm a web development enthusiasts')
+
+console.log('Hello World')
