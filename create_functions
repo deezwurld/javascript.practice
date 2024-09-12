@@ -1,0 +1,22 @@
+function square(arg){
+ return arg * arg
+} //squared value of a passed argument 
+
+
+function add (argOne,argTwo = 10){
+ return argOne + argTwo 
+}// returns result of an addition 
+
+
+function squareAdd (arg){
+ let result = square(arg)
+ return result + add(arg)
+}//returns result of squaring and an addition 
+
+
+console.log( '8 x 8: ' + square(8))
+console.log( '8 + 20: ' + add(8,20))
+console.log( '8 + 10: ' + add(8))
+console log( '(8 x 8) + (8 + 10): ' + squareAdd(8))
+
+/*save as HTML, open in browser and launch console (F12) to see values returned from functions*/
