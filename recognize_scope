@@ -1,0 +1,6 @@
+/*Create an external script that calls a function to output the value of a global variable*/
+
+let myName = 'External Script '
+function readName(){console.log(myName)}
+readName()
+
