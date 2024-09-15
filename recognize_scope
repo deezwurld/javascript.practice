@@ -4,3 +4,23 @@ let myName = 'External Script '
 function readName(){console.log(myName)}
 readName()
 
+
+/*Create an HTML document that includes the external script and adds a similar script*/
+
+<script src="external.js"></script>
+<script>
+let myName = 'Internal script'
+function getName(){Console.log(myName)}
+getName()
+</script>
+
+/*save both files in the same folder, then open the HTML document to see a conflict error n the console*/
+
+/*Edit both scripts to make the global variables into local variables then refresh the browser to see no conflict*/
+
+function readName()
+ let myName = 'External Script'; console.log(myName)
+}
+function getName() {
+ let myName = 'Internal script'; console.log(myName)
+}
