@@ -22,4 +22,12 @@
 
 11 The JavaScript () parentheses operator calls the function 
 
-12 Hoisting allows 
+12 Hoisting allows function calls to appear in the script before the function declaration.
+
+13 Anonymous function expressions have no function name.
+
+14 Lexical scope is the environment in which the variable was created and can be global, local, or closure.
+
+15 Local variables should be used to store values, but global variables can be assigned functions to create closure.
+
+16 A closure is a function nested within an outer function that retains access to variables declared in the outer function 
