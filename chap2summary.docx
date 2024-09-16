@@ -1,0 +1,25 @@
+0 JavaScript code can be included in an HTML document directly or from an external file using ,<script></script> tag
+
+1 JavaScript can display output in an HTML element in an alert dialogue box or in the browser's console window 
+
+2 JavaScript statements may contain keywords, operators, values, and expressions.
+
+3 The JavaScript interpreter ignores tabs and spaces.
+
+4. JavaScript statements can be grouped in {} curly bracket function blocks that can be called to execute when required.
+
+5 Variable and function names may comprise letters, numbers, and underscore characters, but must avoid keywords.
+
+6 JavaScript variables may contain data types of String, Numbers, Boolean, Object, Function, Symbol, null, and undefined.
+
+7 Variables declared with the LET keywords can be reassigned new values, but the const keywords does not allow this.
+
+8 A function expression has statements grouped in {} curly brackets for execution, and it returns a final single value
+
+9 The () parentheses of a function expression may contain parameters for argument values to be passed from the caller .
+
+10 A function block can include a return statement to specify data to be passed back to the caller
+
+11 The JavaScript () parentheses operator calls the function 
+
+12 Hoisting allows 
