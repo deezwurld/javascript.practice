@@ -14,4 +14,5 @@
  console.log('tax' + tax + '' + typeof tax)
 
 net = '$' + net
-console.log('net' + 
+console.log('net' + net + '' + parseInt(net))
+console.log('net Not a Number?' + isNan(net))
