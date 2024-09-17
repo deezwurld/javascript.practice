@@ -1,0 +1,11 @@
+(function (){
+let sum = 80 + 20; console.log('Addition: ' + sum)
+
+let sum = sum - 50; console.log('Subtraction: ' + sub)
+
+let mul = sum * 5; console.log('Multiplication: ' + mul
+
+let div = sum/4; console.log('Division: ' + div)
+
+                              
+})()
