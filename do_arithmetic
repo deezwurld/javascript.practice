@@ -1,3 +1,5 @@
+/*Create an HTML document with a self-invoking anynymous function block and insert statements that assign values to variables using each arthmetical operator and print each result in an output string*/
+
 (function (){
 let sum = 80 + 20; console.log('Addition: ' + sum)
 
@@ -7,5 +9,13 @@ let mul = sum * 5; console.log('Multiplication: ' + mul
 
 let div = sum/4; console.log('Division: ' + div)
 
-                              
+ let mod = sum %2; console.log('Modulus: ' + mod)
+
+let inc = ++ sum; console.log('Increment: ' + inc)
+
+let dec = --sum; console.log('Decrement: ' + dec)
+
+
+/*Save the html document, then open it in your browser and launch the console to see the arithmetic results
+*/
 })()
